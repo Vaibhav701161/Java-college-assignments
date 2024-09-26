@@ -32,7 +32,7 @@ public class StringBufferOperations {
         System.out.println("Append '123' to string: " + sb.append("123"));
         System.out.println("Insert 'XYZ' at position 2: " + sb.insert(2, "XYZ"));
         System.out.println("Reverse the string: " + sb.reverse());
-        sb.reverse(); // Reverting back to original state
+        sb.reverse(); 
         System.out.println("Delete characters from position 2 to 5: " + sb.delete(2, 5));
         System.out.println("Current buffer capacity: " + sb.capacity());
     }
